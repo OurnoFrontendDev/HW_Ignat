@@ -1,9 +1,14 @@
 .select {
+    width: 165px;
+    height: 25px;
+    padding-left:15px ;
 }
 
 .select:focus {
+    /*background-image:url("../c5-SuperSelect/chevron-down.svg") no-repeat;*/
 }
 
 
 .option:hover {
+    background: #0066cc;
 }
