@@ -1,22 +1,36 @@
 .item {
+    display: flex;
 }
 
 .item:last-of-type {
 }
 
 .users {
+    display: flex;
+    flex-direction: column;
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: end;
+    width: 606px;
 }
 
 .container {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
 }
 
 .thead {
+    display: flex;
+    flex-direction: row;
+    width: 606px;
 }
 
 .nameCol {
+
 }
 
 .ageCol {
